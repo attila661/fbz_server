@@ -1,0 +1,123 @@
+{
+  "name": "BBEJ",
+  "filename": "BBEJ",
+  "description": "Bevételezett bálák",
+  "blocksize": 10000,
+  "indexes": [
+    {"keys":["bkod"],"description":"Bálakód"},
+    {"keys":["bcik","bkod"],"description":"Cikk+Bálakód"},
+    {"keys":["tetl","bkod"],"description":"Tételszám+Bálakód"},
+    {"keys":["bzsz","bkod"],"description":"Bizonylat+Bálakód"},
+    {"keys":["src","dttm","bkod"],"description":"Ellenőrzőpont+Időpont+Bálakód"}
+  ],
+  "fields": [
+    {
+      "count": 1,
+      "name": "bkod",
+      "description": "Bálakód",
+      "datatype": "int32",
+      "datasize": 4,
+      "textformat": "composite2",
+      "textlength": 10
+    },
+    {
+      "count": 1,
+      "name": "bcik",
+      "description": "Cikkszám",
+      "datatype": "int16",
+      "datasize": 2,
+      "textformat": "zeropadded",
+      "textlength": 4
+    },
+    {
+      "count": 1,
+      "name": "tetl",
+      "description": "Tételszám",
+      "datatype": "string",
+      "datasize": 11,
+      "textformat": "string",
+      "textlength": 11
+    },
+    {
+      "count": 1,
+      "name": "bzsz",
+      "description": "Bizonylat",
+      "datatype": "int32",
+      "datasize": 4,
+      "textformat": "composite2z",
+      "textlength": 9
+    },
+    {
+      "count": 1,
+      "name": "bear",
+      "description": "Egységár",
+      "datatype": "int32",
+      "datasize": 4,
+      "textformat": "fixed1",
+      "textlength": 9
+    },
+    {
+      "count": 1,
+      "name": "bbru",
+      "description": "Bruttó",
+      "datatype": "int16",
+      "datasize": 2,
+      "textformat": "fixed1",
+      "textlength": 5
+    },
+    {
+      "count": 1,
+      "name": "bgon",
+      "description": "Göngyöleg",
+      "datatype": "int8",
+      "datasize": 1,
+      "textformat": "zeropadded",
+      "textlength": 2
+    },
+    {
+      "count": 1,
+      "name": "btul",
+      "description": "Tulajdonos",
+      "datatype": "int8",
+      "datasize": 1,
+      "textformat": "zeropadded",
+      "textlength": 2
+    },
+    {
+      "count": 1,
+      "name": "pod1",
+      "description": "pod1",
+      "datatype": "string",
+      "datasize": 62,
+      "textformat": "nop",
+      "textlength": 1
+    },
+    {
+      "count": 1,
+      "name": "dttm",
+      "description": "Időpont",
+      "datatype": "int32",
+      "datasize": 4,
+      "textformat": "time",
+      "textlength": 19
+    },
+    {
+      "count": 1,
+      "name": "src",
+      "description": "Ellenőrző pont",
+      "datatype": "int8",
+      "datasize": 1,
+      "textformat": "zeropadded",
+      "textlength": 2
+    },
+    {
+      "count": 1,
+      "name": "pod2",
+      "description": "pod2",
+      "datatype": "string",
+      "datasize": 8,
+      "textformat": "nop",
+      "textlength": 1
+    }
+  ]
+}

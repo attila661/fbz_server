@@ -1,0 +1,48 @@
+{
+  "name": "CIKK",
+  "filename": "CIKK",
+  "description": "Cikkszámok",
+  "blocksize": 100,
+  "indexes": [
+    {"keys":["ckod"],"description":"Sorszám"},
+    {"keys":["name","ckod"],"description":"Névsor"}
+  ],
+  "fields": [
+    {
+      "count": 1,
+      "name": "name",
+      "description": "Megnevezés",
+      "datatype": "string",
+      "datasize": 30,
+      "textformat": "string",
+      "textlength": 30
+    },
+    {
+      "count": 1,
+      "name": "ear",
+      "description": "Egységár",
+      "datatype": "int32",
+      "datasize": 4,
+      "textformat": "fixed1",
+      "textlength": 8
+    },
+    {
+      "count": 1,
+      "name": "ckod",
+      "description": "Kódszám",
+      "datatype": "int16",
+      "datasize": 2,
+      "textformat": "zeropadded",
+      "textlength": 4
+    },
+    {
+      "count": 1,
+      "name": "pod",
+      "description": "pod",
+      "datatype": "string",
+      "datasize": 118,
+      "textformat": "string",
+      "textlength": 118
+    }
+  ]
+}

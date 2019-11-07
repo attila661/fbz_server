@@ -1,0 +1,20 @@
+{
+  "name": "T1",
+  "filename": "T1",
+  "description": "test_1",
+  "blocksize": 100,
+  "indexes": [
+    {"keys":["id"],"description":"id"}
+  ],
+  "fields": [
+    {
+      "count": 1,
+      "name": "id",
+      "description": "id",
+      "datatype": "int8",
+      "datasize": 1,
+      "textformat": "number",
+      "textlength": 3
+    }
+  ]
+}

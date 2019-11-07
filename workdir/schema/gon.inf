@@ -1,0 +1,36 @@
+{
+  "name": "GON",
+  "filename": "GONGY",
+  "description": "Göngyölegek törzsadatai",
+  "blocksize": 35,
+  "indexes": [],
+  "fields": [
+    {
+      "count": 1,
+      "name": "name",
+      "description": "Göngyöleg megnevezése",
+      "datatype": "string",
+      "datasize": 30,
+      "textformat": "string",
+      "textlength": 30
+    },
+    {
+      "count": 1,
+      "name": "kg1",
+      "description": "Súly",
+      "datatype": "int32",
+      "datasize": 4,
+      "textformat": "fixed1",
+      "textlength": 5
+    },
+    {
+      "count": 1,
+      "name": "use",
+      "description": "Használtság",
+      "datatype": "char",
+      "datasize": 1,
+      "textformat": "char",
+      "textlength": 1
+    }
+  ]
+}

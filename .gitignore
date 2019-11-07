@@ -1,0 +1,14 @@
+# IntelliJ
+.idea/
+*.iml
+.clover/
+
+# Maven
+target/
+
+#Developer
+unittest/
+devnotes/
+devdata/
+testdata/
+workdir/data/

@@ -1,0 +1,29 @@
+{
+  "name": "T3",
+  "filename": "T3",
+  "description": "test_3 áéí óöő úüű ÁÉÍ ÓÖŐ ÚÜŰ",
+  "blocksize": 10,
+  "indexes": [
+    {"keys":["id1","id2"],"description":"id1"}
+  ],
+  "fields": [
+    {
+      "count": 1,
+      "name": "id1",
+      "description": "id",
+      "datatype": "int8",
+      "datasize": 1,
+      "textformat": "zeropadded",
+      "textlength": 3
+    },
+    {
+      "count": 1,
+      "name": "id2",
+      "description": "id",
+      "datatype": "int8",
+      "datasize": 1,
+      "textformat": "zeropadded",
+      "textlength": 3
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+mainIroda	Irodai modul		local_shipping	
+mainIrodaTorzs	Törzsadatok	mainIroda		
+mainIrodaTorzsGongy	Göngyölegek	mainIrodaTorzs		screenGongy
+mainIrodaTorzsCikk	Cikkszámok	mainIrodaTorzs		screenCikk
+mainIrodaTorzsVevo	Vevők	mainIrodaTorzs		screenVevo
+mainSystem	Rendszer		settings	
+mainSystemAllview	Views	mainSystem	chrome_reader_mode	screenAllview
+mainSystemUsers	Users	mainSystem	people	screenUsers

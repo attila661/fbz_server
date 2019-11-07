@@ -1,0 +1,6 @@
+{
+  "flagLogRequests":true,
+  "flagLogResponses":true,
+  "flagSidChecking":true,
+  "data":"./workdir"
+}

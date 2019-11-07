@@ -1,0 +1,84 @@
+{
+  "name": "TULA",
+  "filename": "TULAJD",
+  "description": "Tulajdonosok törzsadatai",
+  "blocksize": 100,
+  "indexes": [
+    {"keys":["kod"],"description":"Sorszám"},
+    {"keys":["name","kod"],"description":"Névsor"}
+  ],
+  "fields": [
+    {
+      "count": 1,
+      "name": "name",
+      "description": "Tulajdonos megnevezése",
+      "datatype": "string",
+      "datasize": 30,
+      "textformat": "string",
+      "textlength": 30
+    },
+    {
+      "count": 1,
+      "name": "kod",
+      "description": "Kódszám",
+      "datatype": "int8",
+      "datasize": 1,
+      "textformat": "zeropadded",
+      "textlength": 2
+    },
+    {
+      "count": 1,
+      "name": "mn",
+      "description": "Rövidítés",
+      "datatype": "string",
+      "datasize": 2,
+      "textformat": "string",
+      "textlength": 2
+    },
+    {
+      "count": 1,
+      "name": "cim1",
+      "description": "Tulajdonos címe/1",
+      "datatype": "string",
+      "datasize": 30,
+      "textformat": "string",
+      "textlength": 30
+    },
+    {
+      "count": 1,
+      "name": "cim2",
+      "description": "Tulajdonos címe/2",
+      "datatype": "string",
+      "datasize": 30,
+      "textformat": "string",
+      "textlength": 30
+    },
+    {
+      "count": 1,
+      "name": "cim3",
+      "description": "Tulajdonos címe/3",
+      "datatype": "string",
+      "datasize": 30,
+      "textformat": "string",
+      "textlength": 30
+    },
+    {
+      "count": 1,
+      "name": "cim4",
+      "description": "Tulajdonos címe/4",
+      "datatype": "string",
+      "datasize": 30,
+      "textformat": "string",
+      "textlength": 30
+    },
+    {
+      "count": 1,
+      "name": "use",
+      "description": "Használtság",
+      "datatype": "char",
+      "datasize": 1,
+      "textformat": "char",
+      "textlength": 1
+    }
+  ]
+}
